@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 
 function NavBar() {
   const isDark = true;
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
   const sections = [
     { id: "todo", label: "ToDo", icon: "✅" },
     { id: "notes", label: "Notes", icon: "📃" },
